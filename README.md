@@ -1,5 +1,5 @@
 # femlogit
-This repository contains an implementation of a multinomial logistic regression with fixed effects as described by Chamberlain (1980, p. 231) for Stata. The implementation and the files here are described in Pforr (2014, 2017).
+This repository contains an implementation of a multinomial logistic regression with fixed effects as described by Chamberlain (1980, p. 231) for Stata. The implementation and the files here are described in Pforr (2013, 2014, 2017).
 
 # FAQ / known bugs
 * The factor variable notation is not implemented, i.e. indicator variables and interaction termns have to be constructed manually. 
@@ -8,6 +8,8 @@ This repository contains an implementation of a multinomial logistic regression 
 
 # References
 Chamberlain, G. (1980). Analysis of covariance with qualitative data. The review of economic studies, 47(1), 225-238. https://doi.org/10.2307/2297110
+
+Pforr, K. (2013). femlogit: Implementation und Anwendung der multinominalen logistischen Regression mit" fixed effects". https://doi.org/10.21241/ssoar.37199
 
 Pforr, K. (2014). Femlogit—implementation of the multinomial logit model with fixed effects. The Stata Journal, 14(4), 847-862. https://doi.org/10.1177/1536867X1401400409
 
