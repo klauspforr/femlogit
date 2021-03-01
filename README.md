@@ -1,5 +1,5 @@
 # femlogit
-This repository contains an implementation of a multinomial logistic regression with fixed effects as described by Chamberlain (1980, p. 231) for Stata. The implementation is described in Pforr (2014, 2017).
+This repository contains an implementation of a multinomial logistic regression with fixed effects as described by Chamberlain (1980, p. 231) for Stata. The implementation and the files here are described in Pforr (2014, 2017).
 
 # FAQ / known bugs
 * The factor variable notation is not implemented, i.e. indicator variables and interaction termns have to be constructed manually. 
