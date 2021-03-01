@@ -8,5 +8,7 @@ This repository contains an implementation of a multinomial logistic regression 
 
 # References
 Chamberlain, G. (1980). Analysis of covariance with qualitative data. The review of economic studies, 47(1), 225-238. https://doi.org/10.2307/2297110
+
 Pforr, K. (2014). Femlogit—implementation of the multinomial logit model with fixed effects. The Stata Journal, 14(4), 847-862. https://doi.org/10.1177/1536867X1401400409
+
 Pforr, K. (2017). Detailed description of the implementation the multinomial logit model with fixed effects (femlogit). https://doi.org/10.21241/ssoar.52315
