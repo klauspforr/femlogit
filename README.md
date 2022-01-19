@@ -5,6 +5,7 @@ This repository contains an implementation of a multinomial logistic regression 
 * The factor variable notation is not implemented, i.e. indicator variables and interaction termns have to be constructed manually. 
 * It is by design impossible to estimate effects on the outcome probabilities. Therefore, it is impossible to estimate ordinary marginal effects. You can only estimate odds ratio effects and elasticities. I recommend to use the `lincom` command.
 * The ado throws an error if the robust option is specified and the model contains collinear variables which are omitted.
+* All technical problems might have been solved with the proper implementation of this model in Stata 17 https://www.stata.com/manuals/xtxtmlogit.pdf.
 
 # References
 Chamberlain, G. (1980). Analysis of covariance with qualitative data. The review of economic studies, 47(1), 225-238. https://doi.org/10.2307/2297110
