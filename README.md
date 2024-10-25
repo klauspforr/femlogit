@@ -1,6 +1,9 @@
 # femlogit
 This repository contains an implementation of a multinomial logistic regression with fixed effects as described by Chamberlain (1980, p. 231) for Stata. The implementation and the files here are described in Pforr (2013, 2014, 2017).
 
+# IMPORTANT NOTE
+Stata Corp introduced a streamlined version of the femlogit in Stata 16 (?). Therefore, I strongly recommend to use their implementation, as they worked out most of my known bugs.
+
 # FAQ / known bugs
 * The factor variable notation is not implemented, i.e. indicator variables and interaction termns have to be constructed manually. 
 * It is by design impossible to estimate effects on the outcome probabilities. Therefore, it is impossible to estimate ordinary marginal effects. You can only estimate odds ratio effects and elasticities. I recommend to use the `lincom` command.
